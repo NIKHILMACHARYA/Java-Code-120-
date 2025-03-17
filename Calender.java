@@ -1,10 +1,14 @@
-import java.util.Calender;
-public class dateDemo{
-    public static void main(String [] args){
-        Calender calender=Calender.getInstance();
-        String[] month={
-            "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"        
+import java.util.Calendar;
+
+public class dateDemo {
+    public static void main(String[] args) {
+        Calendar calendar = Calendar.getInstance(); // Fixed spelling
+
+        String[] month = {
+            "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
         };
-        System.out.println("Current Month="+month[calender.get(Calender.MONTH)]);
+
+        System.out.println("Current Month = " + month[calendar.get(Calendar.MONTH)]);
     }
- }
+}
