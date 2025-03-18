@@ -23,12 +23,29 @@ public class Hashmap{
        sc.close();
     }
     public static void sort(int[] pos, int[] neg) {
+        for(int i=neg.length-1;i>=0;i--){
+            if(neg[i]>0){
+                System.out.println((i*-1)+"");
+            }
+        }
+        for(int i=0;i<pos.length;i++){
+            if(pos[i]>0){
+                System.out.println(i+" ");
+            }
+        }
+        System.out.println();
         // Sorting logic (to be implemented)
         System.out.println("Sorting logic to be implemented.");
     }
 
     public static void findElement(int[] pos, int[] neg, int target) {
-        // Search logic (to be implemented)
+         // Search logic (to be implemented)
+        if(target>=0){
+            System.out.println(pos[target]);
+        }else{
+            System.out.println(neg[target]);
+        }
+
         System.out.println("Finding element: " + target);
     }
 
