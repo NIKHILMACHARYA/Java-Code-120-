@@ -3,11 +3,11 @@
 void main(){
     int n,i;
     float marks[30],sum=0,avg;
-    printf("Enter the total Subjects");
+    printf("Enter the total Subjects:\n");
     scanf("%d",&n);
-
-    for(i=0;i<=n;i++){
-        printf("Enter the marks gained in each Subjects:\n", i+1);
+    
+    printf("Enter the marks gained in each Subjects:\n", i+1);
+    for(i=1;i<=n;i++){
         scanf("%f",&marks[i]);
         sum=sum+marks[i];
     }
