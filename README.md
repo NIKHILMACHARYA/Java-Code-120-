@@ -1,2 +1,3 @@
-# Java-Code-120-
-DSA and Java Codes...Learn Simple programs to advance
+# Java & C -Codes-120-
+DSA with Java and C Codes...
+Here we Learn Simple to advance level programs 
