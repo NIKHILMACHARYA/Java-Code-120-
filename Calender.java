@@ -1,6 +1,5 @@
 import java.util.Calendar;
-
-public class dateDemo {
+public class DateDemo {
     public static void main(String[] args) {
         Calendar calendar = Calendar.getInstance(); // Fixed spelling
 
