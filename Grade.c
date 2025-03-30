@@ -2,7 +2,7 @@
 void main(){
     float percent;
     printf("Enter the Percentage of the student:\n");
-    scanf("%f", &percent);
+    scanf("%f",&percent);
 
     if(percent>=85){
         printf("Congratulations! Scored First class with Distinction");
