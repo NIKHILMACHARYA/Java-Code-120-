@@ -19,7 +19,6 @@ public class Hashmap{
         }
         sort(pos,neg);
         findElement(pos,neg, 6);
-    
        sc.close();
     }
     public static void sort(int[] pos, int[] neg) {
