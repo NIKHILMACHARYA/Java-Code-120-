@@ -13,7 +13,6 @@ void main(){
     }
     printf("\nSum of digits : %d",sum);
     printf("\nReverse of the number : %d",rev);
-
     if(x==rev){
         printf("\n The number is Palindrome");
     }else{
