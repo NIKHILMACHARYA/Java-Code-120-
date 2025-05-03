@@ -7,7 +7,6 @@ public class DateDemo {
             "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
             "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
         };
-
         System.out.println("Current Month = " + month[calendar.get(Calendar.MONTH)]);
     }
 }
