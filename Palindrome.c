@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 void main(){
     int num,sum=0,rev=0,d,x;
     printf("Enter the number:");
@@ -11,6 +12,7 @@ void main(){
         sum=sum+d;
         rev=rev*10+d;
     }
+    
     printf("\nSum of digits : %d",sum);
     printf("\nReverse of the number : %d",rev);
    
