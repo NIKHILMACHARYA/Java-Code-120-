@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 void main(){
     int num,digit,sum=0;
