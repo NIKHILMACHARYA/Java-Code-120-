@@ -1,7 +1,7 @@
 import java.util.Scanner;
-
-public class CircumferenceCircle{
+public class CircumferenceCircle{  
     public static void main(String[] args){
+        
         int radius;
         double circumference,area;
         Scanner sc=new Scanner(System.in);
