@@ -8,6 +8,7 @@ public class Hashmap{
             pos[i]=0;
             neg[i]=0;
         }
+        
         System.out.println("Enter the elements of an Array:");
         for (int i = 0; i < 5; i++) {  // Fixed missing parenthesis
             int n = sc.nextInt();
@@ -17,10 +18,12 @@ public class Hashmap{
                 neg[-n]++;  // Storing absolute value
             }
         }
+        
         sort(pos,neg);
         findElement(pos,neg, 6);
        sc.close();
     }
+    
     public static void sort(int[] pos, int[] neg) {
         for(int i=neg.length-1;i>=0;i--){
             if(neg[i]>0){
@@ -44,10 +47,7 @@ public class Hashmap{
         }else{
             System.out.println(neg[target]);
         }
-
         System.out.println("Finding element: " + target);
     }
-
-
 }
  
