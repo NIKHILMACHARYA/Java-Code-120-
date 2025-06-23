@@ -12,11 +12,9 @@ public class InsertionSort {
                 arr[j + 1] = arr[j];
                 j--;
             }
-
             // Insert current at correct position
             arr[j + 1] = current;
         }
-
         // Print sorted array
         for (int num : arr) {
             System.out.print(num + " ");
