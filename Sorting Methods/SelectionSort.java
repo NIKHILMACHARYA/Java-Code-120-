@@ -16,9 +16,9 @@ public class SelectionSort {
             arr[minIndex] = arr[i];
             arr[i] = temp;
         }
-
         for (int num : arr) {
             System.out.print(num + " ");
         }
     }
 }
+
