@@ -13,10 +13,9 @@ public class BubbleSort {
                 }
             }
         }
-
-        // print result
         for (int num : arr) {
             System.out.print(num + " ");
         }
     }
 }
+
