@@ -14,11 +14,10 @@ public class CharOccurrence {
             charCount.put(ch,1);
           }
         }
-
       System.out.println(charCount);
   }
 }
 
 
-
 //output: {a=2, t=2, u=1, i=1, m=1, n=1, o=2}
+
