@@ -22,6 +22,5 @@ public class VowelConsonents {
 }
 
 
-
-
 //output: Vowels: 7, Consonents: 8
+
