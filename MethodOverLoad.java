@@ -1,4 +1,5 @@
 class MethodOverLoad{
+    
     int addition(){
         return (10+10);
     }
@@ -8,7 +9,6 @@ class MethodOverLoad{
     float addition(float a,float b){
         return(a+b);
     }
-    
     public static void main(String[] args) {
         MethodOverLoad a=new  MethodOverLoad();
         System.out.println("By using default values, Sum is:"+a.addition());
