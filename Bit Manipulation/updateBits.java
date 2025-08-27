@@ -9,12 +9,14 @@ public class updateBits {
       int bitMask = 1 << pos;
       
       if(op == 1){
-        int newNumber= bitMask|n;
+        int newNumber = bitMask|n;
         System.out.println(newNumber);
-      }else{
-        int newBitMask= ~(bitMask);
-        int newNumber= newBitMask & n;
+      }
+      else{
+        int newBitMask = ~ (bitMask);
+        int newNumber = newBitMask & n;
         System.out.println(newNumber);
       }
   }
+
 }
