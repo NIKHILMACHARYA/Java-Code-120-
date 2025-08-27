@@ -9,8 +9,7 @@ public int maxDepth(TreeNode root) {
     System.out.println("Node: " + root.val + " | Depth: " + depth);
     return depth;
 }
-```
-
+``
 ---
 
 *2. Symmetric Tree*
@@ -31,7 +30,6 @@ private boolean isMirror(TreeNode t1, TreeNode t2) {
            isMirror(t1.right, t2.left);
 }
 ```
-
 ---
 
 *3. Binary Tree Level Order Traversal*
@@ -60,7 +58,6 @@ public List<List<Integer>> levelOrder(TreeNode root) {
     return result;
 }
 ```
-
 ---
 
 *4. Number of Islands*
