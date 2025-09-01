@@ -1,0 +1,5 @@
+public class ReverseWord{
+ public static void main(String [] args){
+   Strinng sentence = "Java coding Interview";
+   String [] words = sentence.split("");
+StringBuilder result= new String Builder();
