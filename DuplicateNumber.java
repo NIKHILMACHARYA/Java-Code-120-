@@ -11,7 +11,13 @@ public class DuplicateNumber {
       Integer[] uniqueNumber = uniqueSet.toArray(new Integer[0]);
       System.out.println("Original: " +Arrays.toString(nmbr));
       System.out.println("Without duplicate: "+Arrays.toString(uniqueNumber));
-
-
     }
 }
+
+
+
+
+//Output:
+
+//Original: [1, 2, 3, 5, 2, 1, 6, 7, 3]
+//Without duplicate: [1, 2, 3, 5, 6, 7]
