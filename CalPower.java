@@ -18,3 +18,7 @@ public class calPower {
     System.out.println(x+" Power of "+n+" is: " +ans);
     }
 }
+
+
+// output:
+// 2 Power of 5 is: 32
