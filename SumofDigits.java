@@ -13,6 +13,7 @@ public class SumofDigits {
 }
 
 
-Output:
+// Output:
 
-Sum of digits: 15
+// Sum of digits: 15
+
