@@ -6,7 +6,6 @@ public class TowerHonai {
             System.out.println("Transfer disk " + n + " from " + src + " to " + dest);
             return;
         }
-
         TowerofHonai(n - 1, src, dest, helper);
         System.out.println("Transfer disk " + n + " from " + src + " to " + dest);
         TowerofHonai(n - 1, helper, src, dest);
@@ -31,3 +30,4 @@ public class TowerHonai {
 // Transfer disk 1 from S to D
 
     
+
