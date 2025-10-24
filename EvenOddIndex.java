@@ -13,3 +13,16 @@ public class EvenOddIndex {
      }
   }
 }
+
+
+// Output:
+
+// Evan index Elements:
+// Java 
+// TestNG 
+// Jenkins 
+
+// Odd index Elements:
+// Selenium 
+// Maven 
+// docker 
