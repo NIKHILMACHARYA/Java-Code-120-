@@ -13,3 +13,10 @@ public class StingtoInt {
       System.out.println("Integer to String: "+str);
   }
 }
+
+
+
+// Output:
+
+// Sring to Integer: 12345
+// Integer to String 12345
