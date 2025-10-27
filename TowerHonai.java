@@ -17,3 +17,16 @@ public class TowerHonai{
         
     }
 }    
+
+
+// Output:
+
+// Transfer disk 1 from S to D
+// Transfer disk 2 from S to H
+// Transfer disk 1 from D to H
+// Transfer disk 3 from S to D
+// Transfer disk 1 from H to S
+// Transfer disk 2 from H to D
+// Transfer disk 1 from S to D
+
+    
