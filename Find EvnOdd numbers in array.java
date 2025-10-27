@@ -12,11 +12,11 @@ public class EvenOdd{
         odd.add(num);
       }
     }
+    
     System.out.println("Even Numbers: "+even);
     System.out.println("Odd Numbers: "+odd);
   }
 }  
-
 
 
 // Output:
